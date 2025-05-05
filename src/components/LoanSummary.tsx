@@ -92,6 +92,9 @@ const LoanSummary = ({ result }: LoanSummaryProps) => {
               <Typography variant="h4" sx={{ fontWeight: 700, mt: 1 }}>
                 {formatCurrency(result.monthlyPayment)}
               </Typography>
+              <Typography variant="body2" sx={{ mt: 2 }}>
+                 / month
+              </Typography>
             </Paper>
           </Grid>
           
